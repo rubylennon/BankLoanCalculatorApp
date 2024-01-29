@@ -1,14 +1,14 @@
-Bank Loan Calculator App
+# Bank Loan Calculator App
 
-This application provides the following services:
+## This application provides the following services:
 
-1. Service One: Computation of the monthly payment
+### 1. Service One: Computation of the monthly payment
 URI path template to access this service: "loan/monthlypayment/{amount}/{annualInterestRate}/{months}". E.g. http://localhost:49000/api/loan/monthlypayment/100000/6/360
 
-2. Service Two: Computation of the total repayment
+### 2. Service Two: Computation of the total repayment
 URI path template to access this service: "loan/totalrepayment/{amount}/{months}". E.g. http://localhost:49000/api/loan/totalrepayment/599.55/360
 
-Screenshots
+## Screenshots
 ![image](https://github.com/rubylennon/BankLoanCalculatorApp/assets/56481222/a3f2c01b-e646-4eb1-98d9-0668f1e7253b)
 
 Service 1 Screenshot
